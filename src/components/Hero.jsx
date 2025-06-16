@@ -1,13 +1,13 @@
 import React from 'react';
 import { Download, Mail, Phone } from 'lucide-react';
 import './Hero.css';
-import PIC from '../assets/me.jpg'; // Adjust the path as necessary
+import PIC from '../assets/me.jpg'; // This is fine from src/assets
 
 const Hero = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Sandatharuka anawarathna.docx';
-    link.download = 'MADHS_Anawarathna_CV.docx';
+    link.href = '/Sandatharuka.pdf'; // File should be in public folder
+    link.download = 'MADHS_Anawarathna_CV.pdf'; // This is the name user sees
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -62,11 +62,6 @@ const Hero = () => {
                 alt="M A D H S Anawarathna"
                 className="profile-image"
               />
-
-             
-
-
-              
             </div>
           </div>
         </div>
