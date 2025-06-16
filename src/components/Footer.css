@@ -1,0 +1,24 @@
+.footer {
+  background: #f8f9fa;
+  color: #125aeb;
+  padding: 2rem 0;
+  border-top: 1px solid #e9ecef;
+  margin-top: 4rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #080808;
+}
+
+.footer-content p:last-child {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
