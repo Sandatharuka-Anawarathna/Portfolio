@@ -25,14 +25,12 @@ const Hero = () => {
               <br />
               Anawarathna
             </h1>
-            <p className="hero-subtitle">
-             Software Developer in Training Lover
-            </p>
+            <p className="hero-subtitle">Software Developer in Training Lover</p>
             <p className="hero-description">
-              I enjoy building creative solutions using code. I'm learning software development, focusing 
+              I enjoy building creative solutions using code. I'm learning software development, focusing
               on modern web technologies and making user-friendly designs.
             </p>
-            
+
             <div className="hero-actions">
               <button className="btn btn-primary" onClick={handleDownloadCV}>
                 <Download size={20} />
@@ -57,12 +55,17 @@ const Hero = () => {
 
           <div className="hero-image">
             <div className="image-container">
-              <img 
-                src="/photo_2023-09-10_19-48-17.jpg" 
+              <div className="image-backdrop"></div>
+              <img
+                src="/photo_2023-09-10_19-48-17.jpg"
                 alt="M A D H S Anawarathna"
                 className="profile-image"
               />
-              <div className="image-backdrop"></div>
+
+             
+
+
+              <div className="circle-name">M A D H S<br />Anawarathna</div>
             </div>
           </div>
         </div>
