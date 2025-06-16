@@ -1,6 +1,7 @@
 import React from 'react';
 import { Download, Mail, Phone } from 'lucide-react';
 import './Hero.css';
+import PIC from '../assets/me.jpg'; // Adjust the path as necessary
 
 const Hero = () => {
   const handleDownloadCV = () => {
@@ -57,7 +58,7 @@ const Hero = () => {
             <div className="image-container">
               <div className="image-backdrop"></div>
               <img
-                src="/photo_2023-09-10_19-48-17.jpg"
+                src={PIC}
                 alt="M A D H S Anawarathna"
                 className="profile-image"
               />
@@ -65,7 +66,7 @@ const Hero = () => {
              
 
 
-              <div className="circle-name">M A D H S<br />Anawarathna</div>
+              
             </div>
           </div>
         </div>

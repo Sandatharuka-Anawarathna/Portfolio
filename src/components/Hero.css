@@ -180,4 +180,25 @@
   }
 }
 
-@media (max-width: 480px
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-actions {
+    gap: 0.75rem;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
+
+  .circle-name {
+    font-size: 0.85rem;
+  }
+}
